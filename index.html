@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-tema="claro">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TripMe | Explore o Mundo</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- ICONES -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<button id="btn-topo">
+<i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<div class="overlay" id="overlay"></div>
+
+<!-- SIDEBAR -->
+
+<aside class="sidebar" id="sidebar">
+
+<button class="fechar-sidebar" id="btn-fechar">
+<i class="fa-solid fa-xmark"></i>
+</button>
+
+<ul class="sidebar-links">
+<li><a href="#inicio">Início</a></li>
+<li><a href="#destinos">Destinos</a></li>
+<li><a href="#depoimentos">Depoimentos</a></li>
+<li><a href="#faq">Dúvidas</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+
+</aside>
+
+<!-- HEADER -->
+
+<header class="cabecalho-principal">
+
+<nav class="container barra-navegacao">
+
+<div class="logotipo">
+<a href="#"><strong>Trip</strong>Me</a>
+</div>
+
+<ul class="menu-desktop">
+<li><a href="#inicio">Início</a></li>
+<li><a href="#destinos">Destinos</a></li>
+<li><a href="#depoimentos">Depoimentos</a></li>
+<li><a href="#faq">Dúvidas</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+
+<div class="controles-header">
+
+<button id="alternar-tema">🌙</button>
+
+<button class="botao-menu" id="btn-abrir">
+<i class="fa-solid fa-bars"></i>
+</button>
+
+</div>
+
+</nav>
+
+</header>
+
+<main>
+
+<!-- HERO -->
+
+<section id="inicio" class="secao-hero">
+
+<div class="container conteudo-hero">
+
+<span class="subtitulo">Experiências Autênticas</span>
+
+<h1>
+A Jornada Começa Onde o
+<span>Asfalto Termina</span>
+</h1>
+
+<p>
+Descubra vilarejos escondidos e destinos únicos pelo mundo.
+</p>
+
+<div class="botoes-hero">
+
+<a href="#destinos" class="botao-primaria">
+Explorar destinos
+</a>
+
+<a href="#contato" class="botao-secundaria">
+Planejar viagem
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ESTATISTICAS -->
+
+<section class="stats">
+
+<div class="container grade-stats">
+
+<div class="stat-item">
+<h3>45+</h3>
+<p>Destinos exclusivos</p>
+</div>
+
+<div class="stat-item">
+<h3>12k</h3>
+<p>Clientes satisfeitos</p>
+</div>
+
+<div class="stat-item">
+<h3>100%</h3>
+<p>Roteiros personalizados</p>
+</div>
+
+<div class="stat-item">
+<h3>24h</h3>
+<p>Suporte ao viajante</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- DESTINOS -->
+
+<section id="destinos" class="secao-ampla">
+
+<div class="container">
+
+<div class="cabecalho-secao">
+
+<span class="subtitulo">Destinos</span>
+<h2>Nossas Joias Escondidas</h2>
+
+</div>
+
+<div class="grade-destinos">
+
+<figure class="cartao-destino">
+
+<div class="imagem-container">
+
+<span class="tag-preco">€890</span>
+
+<img src="https://images.unsplash.com/photo-1518156677180-95a2893f3e9f"
+alt="Wengen Suíça">
+
+</div>
+
+<figcaption>
+
+<h3>Wengen, Suíça</h3>
+
+<p>Vilarejo alpino sem carros cercado por montanhas.</p>
+
+</figcaption>
+
+</figure>
+
+
+<figure class="cartao-destino">
+
+<div class="imagem-container">
+
+<span class="tag-preco">€650</span>
+
+<img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b"
+alt="Castle Combe Inglaterra">
+
+</div>
+
+<figcaption>
+
+<h3>Castle Combe</h3>
+
+<p>Vilarejo medieval preservado na Inglaterra.</p>
+
+</figcaption>
+
+</figure>
+
+
+<figure class="cartao-destino">
+
+<div class="imagem-container">
+
+<span class="tag-preco">€720</span>
+
+<img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9"
+alt="Burano Itália">
+
+</div>
+
+<figcaption>
+
+<h3>Burano, Itália</h3>
+
+<p>Canais e casas coloridas encantadoras.</p>
+
+</figcaption>
+
+</figure>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- GALERIA -->
+
+<section class="secao-ampla bg-alternativo">
+
+<div class="container">
+
+<div class="cabecalho-secao">
+
+<span class="subtitulo">Galeria</span>
+<h2>Momentos inesquecíveis</h2>
+
+</div>
+
+<div class="galeria-grid">
+
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Montanhas ao amanhecer">
+
+<img src="https://images.unsplash.com/photo-1526779259212-939e64788e3c" alt="Paisagem natural">
+
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Praia paradisíaca">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- DEPOIMENTOS -->
+
+<section id="depoimentos" class="secao-ampla bg-alternativo">
+
+<div class="container">
+
+<div class="cabecalho-secao">
+<span class="subtitulo">Depoimentos</span>
+<h2>O que dizem nossos viajantes</h2>
+</div>
+
+<div class="grade-testemunhos">
+
+<div class="cartao-testemunho">
+
+<div class="rating">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+
+<p class="depoimento-texto">
+“Experiência incrível. Lugares que eu jamais encontraria sozinho.”
+</p>
+
+<div class="perfil">
+<img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Mariana Silva">
+<div class="perfil-info">
+<strong>Mariana Silva</strong>
+<span>São Paulo, Brasil</span>
+</div>
+</div>
+
+</div>
+
+
+<div class="cartao-testemunho">
+
+<div class="rating">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+
+<p class="depoimento-texto">
+“Organização impecável. Cada detalhe da viagem foi perfeito.”
+</p>
+
+<div class="perfil">
+<img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Carlos Mendes">
+<div class="perfil-info">
+<strong>Carlos Mendes</strong>
+<span>Lisboa, Portugal</span>
+</div>
+</div>
+
+</div>
+
+
+<div class="cartao-testemunho">
+
+<div class="rating">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+
+<p class="depoimento-texto">
+“A TripMe me levou para lugares que pareciam saídos de um filme.”
+</p>
+
+<div class="perfil">
+<img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Ana Oliveira">
+<div class="perfil-info">
+<strong>Ana Oliveira</strong>
+<span>Rio de Janeiro</span>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- EXPERIENCIAS -->
+
+<section class="secao-ampla bg-alternativo">
+
+<div class="container">
+
+<div class="cabecalho-secao">
+
+<span class="subtitulo">Experiências</span>
+<h2>Por que viajar com a TripMe?</h2>
+
+</div>
+
+<div class="grade-experiencias">
+
+<div class="experiencia-item">
+<i class="fa-solid fa-map-location-dot"></i>
+<h3>Destinos secretos</h3>
+<p>Lugares fora das rotas turísticas.</p>
+</div>
+
+<div class="experiencia-item">
+<i class="fa-solid fa-user-check"></i>
+<h3>Roteiros personalizados</h3>
+<p>Cada viagem pensada para você.</p>
+</div>
+
+<div class="experiencia-item">
+<i class="fa-solid fa-headset"></i>
+<h3>Suporte 24h</h3>
+<p>Acompanhamento completo durante sua viagem.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- COMO FUNCIONA -->
+
+<section class="secao-ampla">
+
+<div class="container">
+
+<div class="cabecalho-secao">
+
+<span class="subtitulo">Processo</span>
+<h2>Como funciona</h2>
+
+</div>
+
+<div class="grade-passos">
+
+<div class="passo-item">
+<i class="fa-solid fa-comments"></i>
+<h3>1. Conversa</h3>
+<p>Entendemos seu perfil.</p>
+</div>
+
+<div class="passo-item">
+<i class="fa-solid fa-route"></i>
+<h3>2. Planejamento</h3>
+<p>Montamos seu roteiro.</p>
+</div>
+
+<div class="passo-item">
+<i class="fa-solid fa-plane"></i>
+<h3>3. Viagem</h3>
+<p>Você só aproveita.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!--- Faq--->
+<section id="faq" class="secao-ampla">
+
+<div class="container-pequeno">
+
+<div class="cabecalho-secao">
+<span class="subtitulo">FAQ</span>
+<h2>Perguntas Frequentes</h2>
+</div>
+
+
+<div class="faq-item">
+
+<div class="faq-pergunta">
+<span>Os roteiros são personalizados?</span>
+<i class="fa-solid fa-chevron-down"></i>
+</div>
+
+<div class="faq-resposta">
+<p>
+Sim. Cada viagem é planejada de acordo com o perfil do viajante,
+preferências de destino e estilo de experiência.
+</p>
+</div>
+
+</div>
+
+
+<div class="faq-item">
+
+<div class="faq-pergunta">
+<span>Vocês organizam viagens internacionais?</span>
+<i class="fa-solid fa-chevron-down"></i>
+</div>
+
+<div class="faq-resposta">
+<p>
+Sim. Trabalhamos com destinos na Europa, América, Ásia e outros
+lugares exclusivos pelo mundo.
+</p>
+</div>
+
+</div>
+
+
+<div class="faq-item">
+
+<div class="faq-pergunta">
+<span>Posso parcelar minha viagem?</span>
+<i class="fa-solid fa-chevron-down"></i>
+</div>
+
+<div class="faq-resposta">
+<p>
+Sim. Oferecemos opções de parcelamento e diferentes formas de
+pagamento para facilitar sua viagem.
+</p>
+</div>
+
+</div>
+
+
+<div class="faq-item">
+
+<div class="faq-pergunta">
+<span>A TripMe oferece suporte durante a viagem?</span>
+<i class="fa-solid fa-chevron-down"></i>
+</div>
+
+<div class="faq-resposta">
+<p>
+Sim. Nossa equipe oferece suporte completo antes, durante e
+depois da sua viagem.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTATO -->
+
+<section id="contato" class="secao-ampla bg-contato">
+
+<div class="container-pequeno">
+
+<div class="cabecalho-secao">
+
+<span class="subtitulo">Contato</span>
+<h2>Planeje sua viagem</h2>
+
+</div>
+
+<form class="formulario-contato">
+
+<div class="campo">
+<label>Nome</label>
+<input type="text" placeholder="Seu nome">
+</div>
+
+<div class="campo">
+<label>Email</label>
+<input type="email" placeholder="Seu email">
+</div>
+
+<div class="campo">
+<label>Mensagem</label>
+<textarea rows="4"></textarea>
+</div>
+
+<button class="botao-primaria w-100">
+Enviar mensagem
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer class="footer-principal">
+
+<div class="container">
+
+<div class="grade-footer">
+
+<div class="footer-col">
+
+<div class="logotipo">
+<a href="#"><strong>Trip</strong>Me</a>
+</div>
+
+<p>Curadoria de viagens autênticas.</p>
+
+<div class="social-links">
+
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-facebook"></i></a>
+<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+</div>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Navegação</h4>
+
+<ul class="footer-links">
+
+<li><a href="#inicio">Início</a></li>
+<li><a href="#destinos">Destinos</a></li>
+<li><a href="#contato">Contato</a></li>
+
+</ul>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Newsletter</h4>
+
+<form class="newsletter-form">
+
+<input type="email" placeholder="Seu email">
+
+<button>Enviar</button>
+
+</form>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>© 2026 TripMe</p>
+
+</div>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
